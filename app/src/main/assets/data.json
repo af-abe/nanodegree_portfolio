@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Popular Movies",
+    "apk": "abe.appsfactory.nanodegree.popular_movies"
+  },
+  {
+    "title": "Stock Hawk",
+    "apk": "abe.appsfactory.nanodegree.stock_hawk"
+  },
+  {
+    "title": "Build it Bigger",
+    "apk": "abe.appsfactory.nanodegree.build_it_bigger"
+  },
+  {
+    "title": "Make Your App Material",
+    "apk": "abe.appsfactory.nanodegree.make_your_app_material"
+  },
+  {
+    "title": "Go Ubiquitous",
+    "apk": "abe.appsfactory.nanodegree.go_ubiquitous"
+  },
+  {
+    "title": "Capstone",
+    "apk": "abe.appsfactory.nanodegree.capstone"
+  }
+]
