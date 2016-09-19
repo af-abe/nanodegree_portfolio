@@ -1,7 +1,6 @@
 package appsfactory.nanodegree.portfolio.ui.activities;
 
 import android.databinding.DataBindingUtil;
-import android.databinding.ViewDataBinding;
 import android.os.Bundle;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
@@ -29,11 +28,10 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         loadContent();
     }
 
-    private void loadContent(){
+    private void loadContent() {
         getSupportLoaderManager().initLoader(0, null, this)
                 .forceLoad();
     }
-
 
     @Override
     protected void onDestroy() {
@@ -49,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Override
     public void onLoadFinished(Loader<List<ButtonItemViewModel>> loader, List<ButtonItemViewModel> data) {
-        if(data != null){
+        if (data != null) {
             mainModel.appList.clear();
             mainModel.appList.addAll(data);
         }
@@ -57,6 +55,5 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Override
     public void onLoaderReset(Loader<List<ButtonItemViewModel>> loader) {
-
     }
 }
